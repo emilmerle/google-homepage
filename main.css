@@ -1,0 +1,85 @@
+body {
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 30px;
+    font-size: large;
+    position: absolute;
+    top: 0px;
+    margin: 10px;
+}
+
+.signin {
+    background-color: #4683ea;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.center {
+    display: block;
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.searchbar {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    height: 50px;
+    font-size: large;
+    border-radius: 25px;
+    border-color: #f2f2f2;
+
+}
+
+.button {
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+}
+
+.searchbutton {
+    padding: 10px;
+    border: 0px;
+    color: #5F6368;
+}
+
+.bottom {
+    display: flex;
+    width: 99%;
+    font-size: large;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+}
+
+a {
+    line-height: 30px;
+    font-size: small;
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.linksleft {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.linksright {
+    padding-left: 10px;
+    padding-right: 10px;
+}
